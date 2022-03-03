@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app{
+    background-color: #111;
+    color: white;
+    /* font-family: 'Black Ops One', cursive; */
+font-family: 'Josefin Sans', sans-serif; 
+/* font-family: 'Poppins', sans-serif;  */
+}

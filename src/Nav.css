@@ -1,0 +1,47 @@
+.nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    height: 60px;
+    z-index: 1;
+
+
+    /* Animations */
+    transition-timing-function: ease-in;
+    transition: all 0.4s;
+}
+
+.nav__black{
+    background-color: #111;
+}
+
+.nav__logo{
+    width: 110px;
+    object-fit: contain;
+}
+.nav__profile{
+    width: 35px;
+    object-fit: contain;
+    border-radius: 2px;
+}
+.nav_left{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav_links{
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    font-size: 0.9rem;
+}
+.nav_links  li:hover{
+    color: #979797;
+    transition: 250ms;
+    cursor: pointer;
+}
